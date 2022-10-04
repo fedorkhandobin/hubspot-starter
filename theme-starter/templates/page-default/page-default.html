@@ -1,0 +1,11 @@
+<!--
+  templateType: page
+  isAvailableForNewContent: true
+  label: Page Default
+-->
+
+{% extends '../../layouts/base.html' %}
+
+{% block body %}
+  {% widget_container "my_flexible_column" label="Content Modules" %}{% end_widget_container %}
+{% endblock body %}
