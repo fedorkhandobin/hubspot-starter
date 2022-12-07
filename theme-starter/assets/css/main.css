@@ -1,0 +1,28 @@
+/*
+This file is collecting all the css reusble components and its finally included in the lyouts -> base.html
+Therefore, every new page created will have all these styles available
+*/
+
+/*Include all the css reusable components*/
+{% include 'theme-starter/assets/css/container.css'%}
+{% include 'theme-starter/assets/css/btn.css'%}
+
+/*General default styles applied for the whole theme*/
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+}
+
+body {
+    padding-top: 150px;
+}
+
+@media(width <= 768px) {
+    body {
+        padding-top: 80px;
+    }
+}

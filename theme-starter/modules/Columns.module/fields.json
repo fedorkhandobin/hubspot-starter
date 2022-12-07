@@ -1,0 +1,21 @@
+[
+  {
+   "default": [
+    "<h3>This is headline</h3>\n<p>Simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>\n<a class=\"btn\">Read more</a>",
+    "<h3>This is headline</h3>\n<p>Simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>\n<a class=\"btn\">Read more</a>",
+    "<h3>This is headline</h3>\n<p>Simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>\n<a class=\"btn\">Read more</a>"
+   ],
+   "display_width": null,
+   "id": "97b9d230-66d0-86cb-9aa2-b890a0d557d8",
+   "label": "Columns",
+   "locked": false,
+   "name": "richtext_field",
+   "occurrence": {
+    "default": 3,
+    "max": 12,
+    "min": 1
+   },
+   "required": false,
+   "type": "richtext"
+  }
+ ]

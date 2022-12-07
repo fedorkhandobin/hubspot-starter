@@ -10,9 +10,6 @@
 
     <meta name="description" content="{{ page_meta.meta_description }}">
 
-    {# including file with all partials #}
-    {% include "../partials/include-partials.html" %}
-
     {{ standard_header_includes }}
 
   </head>
@@ -21,7 +18,7 @@
 
 
       {% block header %}
-        {% module "module_16586951158771" path="/theme/modules/Header", label="Header" %}
+        {% module "module_16704079035441" path="/theme-starter/modules/Header", label="Header" %}
       {% endblock header %}
 
       <div class="body-container">
@@ -32,7 +29,7 @@
       </div>
 
       {% block footer %}
-        {% module "module_16586978741771" path="/theme/modules/Footer", label="Footer" %}
+        {% module "module_16704079114352" path="/theme-starter/modules/Footer", label="Footer" %}
       {% endblock footer %}
 
 

@@ -1,0 +1,11 @@
+.container {
+    margin-inline: auto;
+    max-width: 1380px;
+    width: 90%;
+}
+
+@media(width <= 678px) {
+    .container {
+        width: calc(100% - 30px)
+    }
+}
